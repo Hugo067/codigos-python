@@ -101,4 +101,4 @@
 x = (2/3)
 print(f"printando o {x}")
 print( f"printando o {x:.2f}")
-print( f"printando o {x:.2f}")print( f"printando o {x:.2f}")print( f"printando o {x:.2f}")
+
