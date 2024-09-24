@@ -1,0 +1,15 @@
+nome = str
+q = int
+v = float
+p = float
+
+nome = str(input("digite o nome do produto = "))
+
+q = int(input("digite a quantidade de produto = "))
+
+v = float(input("digite o valor de seu produto = "))
+
+p = float(input("digite o percentual = "))
+
+total = (q*v*p)/100
+print(total)

@@ -64,15 +64,6 @@
 
 
 
-# %d = int
-# %s = string
-# %f = float
-# %b = bool
-
-# sempre ira colocar pela ordem ()
-
-
-
 # salario = float(input("salario = "))
 # print("o salario digitado foi %f", salario)
 
@@ -98,7 +89,7 @@
 # f"progamando em {linguagem}"
 # print(f"progamando em {linguagem}")
 
-x = (2/3)
-print(f"printando o {x}")
-print( f"printando o {x:.2f}")
+# x = (2/3)
+# print(f"printando o {x}")
+# print( f"printando o {x:.2f}")
 
