@@ -129,3 +129,5 @@ frutas2 = ["maca", "laranja", "banana", "cereja", "uva"]
 print(frutas2)
 frutas2 [1] = "goiaba"
 print(frutas2)
+
+
