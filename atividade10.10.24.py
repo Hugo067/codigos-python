@@ -35,9 +35,9 @@ if senha == 1234:
 
 
         if opção1 == 4:
-            print("1.\ncadastro",
-                  "2.\neditar cadastro",)  
-            adm = int(input("digite uma das opção = "))
+            print("1.\ncadastro")
+                  
+            adm = int(input("digite a opção = "))
             
         elif adm ==1:
             nome = str(input("digite seu nome = "))
@@ -45,16 +45,18 @@ if senha == 1234:
             fone = int(input("digite seu fone = "))
             sexo = str(input("digite seu sexo = "))
 
-        elif adm ==2:
-            print(nome = str(input("digite seu nome = ")))
-            print(cpf = int(input("digite seu cpf = ")))
-            print(fone = int(input("digite seu fone = ")))
-            print(sexo = str(input("digite seu sexo = ")))
+#             if
+
+#             elif adm ==2:
+#                 print(nome)
+#                 print(cpf)
+#                 print(fone)
+#                 print(sexo)
 
 
-    elif opção1 == 5:
-        sair = str(input("saida bem sucedida..."))
+#     elif opção1 == 5:
+#         sair = str(input("saida bem sucedida..."))
 
-else: 
-    print("senha invalida")
+# else: 
+#     print("senha invalida")
     

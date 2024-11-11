@@ -13,7 +13,7 @@ else:
      n1 = (num1/num2)
      print(n1)
 
-#
+#else  sempre ira usar if da msm linha 
 idade = int(input("digite sua idade: "))
 if idade ==16:
     print("pode votar")
@@ -23,4 +23,7 @@ else:
     else:
         if idade <16:
             print ("apenas estude")
+
+#(senao se) elif
+
             

@@ -28,9 +28,9 @@
 #         print(n1*y)
 #-----------------------------------------------------
     
-a = float(input("digite um numero ="))
-b = float(input("digite um numero ="))
-c = float(input("digite um numero ="))
+a = int(input("digite um numero ="))
+b = int(input("digite um numero ="))
+c = int(input("digite um numero ="))
 
 if a<b and b<c:
         print(a,b,c)
