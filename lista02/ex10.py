@@ -1,0 +1,13 @@
+
+a=int(input("Digite o valor um: "))
+b=int(input("Digite o valor dois: "))
+c=int(input("Digite o valor tres: "))
+d=int(input("Digite o valor quatro: "))
+e=int(input("Digite o valor cinco: "))
+
+lista = diferenca_max_min =[a,b,c,d,e]
+
+def diferenca_max_min(lista):
+    return max(lista) - min(lista)
+
+print(diferenca_max_min(lista))  
