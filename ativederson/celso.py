@@ -11,6 +11,7 @@ num = ctk.CTkEntry(janela,placeholder_text=("digite = "))
 num.pack()
 botao = ctk.CTkButton(janela,text=("comfirma"))
 botao.pack()
+x = botao.place(x=50,y=50)
 
 
 
