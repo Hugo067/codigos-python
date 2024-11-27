@@ -37,6 +37,6 @@ banca2= float(input("digite seu saque:"))
 conta1 = Conta_Corrente(924772, "Hugo Freres")
 conta1.deposito(banca1)
 conta1.saque(banca2)
-conta1.alterar_nome("nome alterado para (Hugo Sousa)")
+conta1.alterar_nome("nome alterado para Hugo Sousa")
 
  
