@@ -1,17 +1,12 @@
-class Livro:
-    def __init__(self, titulo, autor):
-        self.titulo = titulo
-        self.autor = autor
+class Carro:
+    def __init__(self, modelo, ano):
+        self.modelo = modelo
+        self.ano = ano
 
-    def exibir_detalhes(self):
-        print('Título: ' + self.titulo)
-        print('Autor: ' + self.autor)
+    def exibir_informacoes(self):
+        print('modelo:' ,self.modelo,'\nAno:', self.ano)
 
 if __name__ == "__main__":
-    livro = Livro("Duna","Frank Herbert")
-    
-    livro.exibir_detalhes()
+    carro = Carro("jetta", 2020)
 
-oda=livro("One Piece","Eiichiro Oda")
-
-oda.exibir_detalhes()
+    carro.exibir_informacoes()

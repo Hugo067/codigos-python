@@ -4,11 +4,11 @@ class Retangulo:
         self.largura = largura
         self.altura = altura
 
-    def calcular_area(self):
+    def area(self):
     
         return self.largura * self.altura
 
-retangulo1 = Retangulo(5, 10)
+retan = Retangulo(5, 10)
 
-area = retangulo1.calcular_area()
-print(f"A área do retângulo é: {area}")
+area = retan.area()
+print(f" área do retângulo: {area}")

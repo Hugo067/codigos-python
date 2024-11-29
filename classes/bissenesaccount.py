@@ -11,7 +11,7 @@ class BussinesAccount(Account):
         if amount > 0 and amount <= self.loanLimit:
             self.balance += amount
         else:
-            print("invalid deposit alo")
+            print("invalid deposit alor")
 
 # holder= str(input('Name of the holder: '))
 # print("name holder ",holder)

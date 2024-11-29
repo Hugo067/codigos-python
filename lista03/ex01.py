@@ -1,14 +1,13 @@
 
 class Pessoa:
-    def __init__(self, nome, idade):
+    def __init__(self,nome,idade ):
         self.nome = nome
-        self.idade = idade
+        self.idade =idade 
 
-    def imprimir_informacoes(self):
+    def print_info(self):
 
-        print(f"Nome: {self.nome}")
-        print(f"Idade: {self.idade} anos")
+        print(f"Nome: {self.nome}\nIdade: {self.idade} anos")
+        
+pes = Pessoa("Hugo", 18)
 
-pessoa1 = Pessoa("Hugo", 18)
-
-pessoa1.imprimir_informacoes()
+pes.print_info()

@@ -3,15 +3,9 @@ class Livro:
         self.titulo = titulo
         self.autor = autor
 
-    def exibir_detalhes(self):
-        print('Título: ' + self.titulo)
-        print('Autor: ' + self.autor)
+    def exibir(self):
+        print(f'Título: {self.titulo},Autor: {self.autor}')
+     
+a = Livro("a menina que roubava livros", "Markus Zusak")
 
-if __name__ == "__main__":
-    livro = Livro("Duna","Frank Herbert")
-    
-    livro.exibir_detalhes()
-
-oda=livro("One Piece","Eiichiro Oda")
-
-oda.exibir_detalhes()
+a.exibir()
