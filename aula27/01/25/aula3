@@ -1,0 +1,38 @@
+import sys
+from PySide6.QtWidgets import QApplication, QWidget, QLabel, QVBoxLayout
+from PySide6.QtCore import Qt
+from PySide6.QtGui import QPixmap
+
+class MainWindow(QWidget):
+    def __init__(self):
+        super().__init__()
+
+        self.setWindowTitle('Hello World')
+        self.setMinimumSize(400, 400)
+
+        layout = QVBoxLayout()
+
+        
+        label_text = QLabel('Hugo')
+        label_text.setAlignment(Qt.AlignCenter)
+
+
+        label_image = QLabel()
+        pixmap = QPixmap(r"C:\Users\suporte\Downloads\images.jpg")  
+        label_image.setPixmap(pixmap)
+        label_image.setAlignment(Qt.AlignCenter)
+
+        
+        layout.addWidget(label_text)
+        layout.addWidget(label_image)
+
+        self.setLayout(layout)
+
+def main():
+    app = QApplication(sys.argv)
+    window = MainWindow()
+    window.show()
+    sys.exit(app.exec())
+
+if __name__ == '__main__':
+    main()

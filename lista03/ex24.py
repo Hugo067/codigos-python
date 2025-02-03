@@ -1,4 +1,3 @@
-
 class Elevador:
     def __init__(self, totalAndares):
         self.andarAtual = 0  

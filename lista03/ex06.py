@@ -8,8 +8,8 @@ class Animal:
 
 if __name__ == "__main__":
   
-    cachorro = Animal("Cachorro", "Au au")
-    gato = Animal("Gato", "Miau Miau")
+    cachorro = Animal("Cachorro", "Au ")
+    gato = Animal("Gato", "Miau ")
     
     
     cachorro.emitir_som()

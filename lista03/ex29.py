@@ -20,6 +20,4 @@ jogo = Jogo("Super Mario")
 
 jogo.iniciar_jogo()
 jogo.registrar_pontuacao(100)  
-jogo.registrar_pontuacao(50)   
-jogo.registrar_pontuacao(-10)  
-jogo.exibir_pontuacao() 
+
